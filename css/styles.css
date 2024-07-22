@@ -87,11 +87,14 @@ a {
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
-    width: 1158px;
     top: 0;
     left: 0;
     z-index: 1000;
-   
+border-bottom: 1px solid #e7e9fc;
+width: 1440px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .header-main-cont {
@@ -120,11 +123,11 @@ a {
     display: flex;
     list-style: none;
     width: 261px;
-        height:24px;
-        top: 24px;
-        left: 347px;
-        gap: 40px;
-        opacity: 0px;
+    height:24px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    opacity: 0px;
 }
 
 .header-nav-list li {
@@ -140,12 +143,6 @@ a {
 
 .header-link:hover {
     color: #0284a2;
-}
-
-.address-contact {
-    display: block;
-    color: #0284a2;
-    text-decoration: none;
 }
 
 .logo {
@@ -179,14 +176,37 @@ a {
 
 address {
     font-style: normal;
-    display: flex;
+    display: inline;
 }
 
 .address-contact {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    display: block;
+    color: #0284a2;
+    text-decoration: none;
+    display: block;
 }
+
+.address-contact .first-address{
+    width: 153px;
+        height: 24px;
+        top: 24px;
+        left: 940px;
+        gap: 0px;
+        opacity: 0px;
+}
+
+.address-contact .second-address{
+    width: 151px;
+        height: 24px;
+        top: 24px;
+        left: 1133px;
+        gap: 0px;
+        opacity: 0px;
+}
+
 
 .address-contact:hover,
 .address-contact:focus {
