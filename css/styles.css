@@ -272,8 +272,8 @@ address {
     line-height: 1.5;
     color: var(--white);
     background-color: #4d5ae5;
-    color: #ffffff;
-    border: none;
+        color: #ffffff;
+        border: none;
     padding: 10px 20px;
     border-radius: 4px;
     text-transform: uppercase;
@@ -360,12 +360,6 @@ address {
 
 .footer-section {
     background-color: var(--navy-blue);
-    padding: 100px 0;
-    background-color: #2e2f42;
-    color: #ffffff;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -379,21 +373,6 @@ address {
 .design-logo {
     color: var(--cloud);
 }
-
-.footer-paragraph {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-.footer-logo {
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.footer-logo .header-logo-second-part {
-    color: #0284a2;
 
 /*acum se termina*/
 
@@ -532,5 +511,25 @@ address {
 }
 
 /* Footer */
+.footer-section {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
 
+.footer-paragraph {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-logo .header-logo-second-part {
+    color: #0284a2;
 }
