@@ -405,16 +405,9 @@ padding-bottom: 32px;}
 
 .team-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-
-.team-list-img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin-bottom: 20px;
-}
 
 
 /* Last Section */
