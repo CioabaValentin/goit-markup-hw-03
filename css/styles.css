@@ -382,7 +382,8 @@ margin-bottom: 8px;
 
 .team-section-text-cont{
 padding-top: 32px;
-padding-bottom: 32px;}
+padding-bottom: 32px;
+}
 
 
 .team-list-name {
@@ -392,7 +393,7 @@ padding-bottom: 32px;}
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
-        margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-list-job {
@@ -412,6 +413,11 @@ padding-bottom: 32px;}
 
 /* Last Section */
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio {
     background-color: #ffffff;
     padding: 50px 0;
@@ -419,15 +425,21 @@ padding-bottom: 32px;}
 }
 
 .portfolio-title {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--navy-blue);
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
@@ -445,27 +457,10 @@ padding-bottom: 32px;}
 }
 
 .portfolio-section-text-cont {
-    padding: 20px;
     text-align: center;
-}
-
-.portfolio-list-title {
-    font-size: 1.25rem;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.portfolio-list-description {
-    color: #666;
-}
-
-.portfolio-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: var(--navy-blue);
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-title {
@@ -474,6 +469,7 @@ padding-bottom: 32px;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 10px;
 }
 
 .portfolio-list-description {
