@@ -308,12 +308,11 @@ address {
 
 .quality-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 24px;
 }
 
 .quality-list:first-child{
-    flex-basis: calc((100% - 72px) / 4))
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .quality-list-item {
@@ -331,6 +330,11 @@ address {
     margin-bottom: 8px;
     color: #0284a2;
 }
+
+.quality-list-title:first-child{
+margin-bottom: 8px;
+}
+
 
 .quality-list-description {
     color: #666;
