@@ -287,6 +287,51 @@ address {
     background-color: var(--ocean);
 }
 
+/* Second section */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+    /* 1 */}
+
+.strategy-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.quality-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.quality-list-item {
+    flex: 1 1 100%;
+    max-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quality-list-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0284a2;
+}
+
+.quality-list-description {
+    color: #666;
+}
+
 .quality-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -300,6 +345,9 @@ address {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
+
+/* Third Section */
 
 .team {
     background-color: var(--cloud);
@@ -332,6 +380,101 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--slate);
+}
+
+.team {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2e2f42;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-list-item {
+    flex: 1 1 100%;
+    max-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-list-img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.team-list-name {
+    font-size: 1.25rem;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.team-list-job {
+    color: #666;
+}
+
+
+/* Last Section */
+
+.portfolio {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2e2f42;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    flex: 1 1 100%;
+    max-width: 360px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-list-img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-section-text-cont {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-list-title {
+    font-size: 1.25rem;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.portfolio-list-description {
+    color: #666;
 }
 
 .portfolio-title {
@@ -392,134 +535,6 @@ address {
 }
 /*acum se termina*/
 
-
-
-/* Strategy Section */
-.strategy-section {
-    background-color: #ffffff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.quality-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.quality-list-item {
-    flex: 1 1 100%;
-    max-width: 250px;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.quality-list-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #0284a2;
-}
-
-.quality-list-description {
-    color: #666;
-}
-
-/* Team Section */
-.team {
-    background-color: #f3f3f3;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.team-title {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #2e2f42;
-}
-
-.team-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.team-list-item {
-    flex: 1 1 100%;
-    max-width: 250px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.team-list-img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin-bottom: 20px;
-}
-
-.team-list-name {
-    font-size: 1.25rem;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.team-list-job {
-    color: #666;
-}
-
-/* Portfolio Section */
-.portfolio {
-    background-color: #ffffff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.portfolio-title {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #2e2f42;
-}
-
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.portfolio-item {
-    flex: 1 1 100%;
-    max-width: 360px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-list-img {
-    width: 100%;
-    height: auto;
-}
-
-.portfolio-section-text-cont {
-    padding: 20px;
-    text-align: center;
-}
-
-.portfolio-list-title {
-    font-size: 1.25rem;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.portfolio-list-description {
-    color: #666;
-}
 
 /* Footer */
 .footer-section {
