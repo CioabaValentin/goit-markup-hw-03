@@ -487,11 +487,11 @@ padding-bottom: 32px;
 /* Footer */
 .footer-section {
     background-color: var(--navy-blue);
-        color: #ffffff;
-        text-align: center;
-        padding: 100px 0;
-        display: inline-block;
-        margin-bottom: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -504,9 +504,6 @@ padding-bottom: 32px;
     margin: 0 auto;
 }
 
-.design-logo {
-    color: var(--cloud);
-}
 
 .footer-logo {
     font-size: 1.5rem;
