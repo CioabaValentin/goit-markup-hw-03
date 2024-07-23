@@ -488,7 +488,6 @@ padding-bottom: 32px;
 .footer-section {
     background-color: var(--navy-blue);
     color: #ffffff;
-    text-align: center;
     padding: 100px 0;
     display: inline-block;
     margin-bottom: 16px;
@@ -501,16 +500,16 @@ padding-bottom: 32px;
     letter-spacing: 0.02em;
     color: var(--cloud);
     max-width: 264px;
-    margin: 0 auto;
+
 }
 
 
 .footer-logo {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #4D5AE5;;
     text-decoration: none;
 }
 
 .footer-logo .header-logo-second-part {
-    color: #0284a2;
+    color: #F4F4FD;;
 }
