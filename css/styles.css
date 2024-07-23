@@ -91,10 +91,11 @@ a {
     left: 0;
     z-index: 1000;
 border-bottom: 1px solid #e7e9fc;
-width: 1440px;
+width: 1158px;
     height: 72px;
     gap: 0px;
     opacity: 0px;
+    padding: 0 15px;;
 }
 
 .header-main-cont {
@@ -117,10 +118,10 @@ width: 1440px;
 
 .header-nav{
     display: inline-flex;
+    align-items: center;
 }
 
 .header-nav-list {
-    display: flex;
     list-style: none;
     width: 261px;
     height:24px;
@@ -128,6 +129,7 @@ width: 1440px;
     left: 347px;
     gap: 40px;
     opacity: 0px;
+    display: flex;
 }
 
 .header-nav-list li {
@@ -159,7 +161,7 @@ width: 1440px;
         left: 156px;
         gap: 0px;
         opacity: 0px;
-
+margin-right: 76px;
 }
 
 .header-link {
