@@ -81,6 +81,11 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+}
+
 /* Header*/
 /* Header */
 .header {
@@ -395,11 +400,6 @@ address {
 }
 /*acum se termina*/
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 
 /* Strategy Section */
