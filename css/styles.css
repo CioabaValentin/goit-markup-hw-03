@@ -72,9 +72,6 @@ a {
 
 /* Header*/
 /* Header */
-.section-1{
-    padding: 188px 0;
-}
 
 .header {
     background-color: #ffffff;
@@ -203,6 +200,9 @@ address {
 /*End header*/
 
 /* Hero Section */
+.section-i {
+    padding: 188px 0;
+}
 
 .hero-title {
     font-size: 2.5rem;
@@ -288,7 +288,7 @@ address {
     overflow: hidden;
 }
 
-.section{padding: 120px 0;}
+.section-ii{padding: 120px 0;}
 
 .strategy-section {
     background-color: #ffffff;
@@ -342,7 +342,7 @@ margin-bottom: 8px;
         padding: 50px 0;
         text-align: center;
 }
-.section{
+.section-iii{
     padding: 120px 0;
 }
 
@@ -402,7 +402,7 @@ padding-bottom: 32px;
 
 /* Last Section */
 
-.section{
+.section-iiii{
     padding-top: 120px;
     padding-bottom: 120px;
 }
