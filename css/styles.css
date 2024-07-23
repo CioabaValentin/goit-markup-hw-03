@@ -126,6 +126,7 @@ a {
     gap: 40px;
     opacity: 0px;
     display: flex;
+    padding: 24px 0;
 }
 
 .header-nav-list li {
@@ -152,11 +153,6 @@ a {
     text-transform: uppercase;
     color: var(--iris);
     width: 115px;
-        height: 24px;
-        top: 24px;
-        left: 156px;
-        gap: 0px;
-        opacity: 0px;
 margin-right: 76px;
 }
 
