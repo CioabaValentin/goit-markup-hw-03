@@ -68,7 +68,6 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    margin-bottom: 8px;
 }
 
 /* Header*/
@@ -212,14 +211,21 @@ address {
 }
 
 .button {
-    background-color: #4d5ae5;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     text-transform: uppercase;
-    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font-family);
+    background-color: var(--iris);
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--white);
+    background-color: #4d5ae5;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -246,27 +252,6 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    
-}
-
-.button {
-    cursor: pointer;
-    font-family: var(--font-family);
-    background-color: var(--iris);
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--white);
-    background-color: #4d5ae5;
-        color: #ffffff;
-        border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    display: block;
-    min-width: 169px;
-    height: 56px;
     
 }
 
@@ -310,11 +295,9 @@ address {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.quality-list-item:first-child{
     width: calc((100% - 72px) / 4);
 }
+
 
 .quality-list-title {
     margin-bottom: 8px;
@@ -358,6 +341,7 @@ margin-bottom: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
         border-radius: 0px 0px 4px 4px;
+        width: ((100% - 72px) / 4);
     }
 
 .team-title {
@@ -397,6 +381,7 @@ padding-bottom: 32px;
 .team-list {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 }
 
 
