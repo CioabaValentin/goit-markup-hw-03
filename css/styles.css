@@ -64,11 +64,6 @@ a {
     text-decoration: none;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 /* Header*/
 /* Header */
@@ -78,11 +73,18 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 
+
 .header-main-cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-logo-first-part {
