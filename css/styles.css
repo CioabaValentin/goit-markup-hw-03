@@ -462,6 +462,10 @@ padding-bottom: 32px;
     max-width: 264px;
 }
 
+.logo-footer{
+    display:inline-block;
+    margin-bottom: 16px;
+}
 
 .footer-logo-first-part {
     font-size: 1.5rem;
