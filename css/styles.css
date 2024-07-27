@@ -87,19 +87,29 @@ a {
 }
 
 .header-logo-first-part {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 1.5rem;
-    color: #2e2f42;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 
 .header-logo-second-part {
-    color: #0284a2;
+    color: #2e2f42;
+    ;
 }
 
-.menu{
-    padding: 24px 0;
+.header-logo-first-part {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--iris);
 }
+
+.header-logo-second-part {
+    color: var(--navy-blue);
+
+}
+
 
 .header-nav{
     display: flex;
@@ -135,7 +145,6 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
     width: 115px;
 margin-right: 76px;
 }
