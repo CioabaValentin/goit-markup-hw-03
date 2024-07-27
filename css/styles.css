@@ -105,6 +105,9 @@ a {
 .header-nav-list {
     gap: 40px;
     display: flex;
+}
+
+.first-nav-link{
     padding: 24px 0;
 }
 
