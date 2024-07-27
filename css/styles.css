@@ -262,7 +262,8 @@ address {
     overflow: hidden;
 }
 
-.section-ii{padding: 120px 0;}
+.section-ii{
+    padding: 120px 0;}
 
 .strategy-section {
     background-color: #ffffff;
@@ -382,6 +383,8 @@ padding-bottom: 32px;
     background-color: #ffffff;
     padding: 50px 0;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
