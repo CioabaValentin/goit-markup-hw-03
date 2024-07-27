@@ -28,7 +28,6 @@ a {
     font-style: normal;
 }
 
-/*Acum pun un vechi document */
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -66,7 +65,6 @@ a {
 
 
 /* Header*/
-/* Header */
 
 .header {
     background-color: #ffffff;
@@ -185,7 +183,6 @@ address {
     text-decoration: underline;
 }
 
-/*End header*/
 
 /* Hero Section */
 .section-i {
