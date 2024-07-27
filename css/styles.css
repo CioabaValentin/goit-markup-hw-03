@@ -273,6 +273,10 @@ address {
 .quality-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+.quality-list:first-child{
+    width: calc((100% - 72px) / 4);
 }
 
 .quality-list-item {
@@ -283,7 +287,6 @@ address {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: calc((100% - 72px) / 4);
 }
 
 
