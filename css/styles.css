@@ -110,14 +110,12 @@ a {
 
 .first-nav-links{
     padding: 24px 0;
-    margin-left: 20px;
 }
 
 
 .header-link {
     color: #2e2f42;
     font-weight: 500;
-    padding: 5px 10px;
 }
 
 .header-link:hover {
