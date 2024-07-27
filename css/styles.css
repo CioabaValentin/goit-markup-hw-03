@@ -97,18 +97,12 @@ a {
 }
 
 .header-nav{
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
 .header-nav-list {
-    list-style: none;
-    width: 261px;
-    height:24px;
-    top: 24px;
-    left: 347px;
     gap: 40px;
-    opacity: 0px;
     display: flex;
     padding: 24px 0;
 }
@@ -209,6 +203,7 @@ address {
     font-size: 2.5rem;
     margin-bottom: 20px;
     max-width: 496px;
+    display: flex;
 }
 
 .button {
@@ -238,7 +233,7 @@ address {
 
 .hero {
     background-color: var(--navy-blue);
-    background-image: url('./images/hero-bg.jpg');
+    background-image: url('/images/Dark-bg.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff;
