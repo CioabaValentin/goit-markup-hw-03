@@ -69,12 +69,13 @@ a {
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
+    padding: 15px;
 }
 
 
 .header-main-cont {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
 }
