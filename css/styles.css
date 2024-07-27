@@ -276,9 +276,9 @@ address {
 
 
 .quality-list-item {
-    width: calc((100% - 72px) / 4);
     max-width: 250px;
     border-radius: 10px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -319,9 +319,6 @@ margin-bottom: 8px;
     gap: 24px;
 }
 
-.team-list:first-child{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
 
 .team-list-item {
     background-color: var(--white);
@@ -331,7 +328,7 @@ margin-bottom: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 3* 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     }
 
 .team-title {
@@ -371,15 +368,14 @@ padding-bottom: 32px;
 
 
 /* Last Section */
-
+/*
 .section-iiii{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+*/
 .portfolio {
     background-color: #ffffff;
-    padding: 50px 0;
     text-align: center;
     padding-top: 120px;
     padding-bottom: 120px;
