@@ -97,6 +97,10 @@ a {
     color: #0284a2;
 }
 
+.menu{
+    padding: 24px 0;
+}
+
 .header-nav{
     display: flex;
     align-items: center;
