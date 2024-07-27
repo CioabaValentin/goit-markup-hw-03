@@ -105,7 +105,6 @@ a {
 .header-nav-list {
     gap: 40px;
     display: flex;
-
 }
 
 .first-nav-links{
@@ -162,19 +161,7 @@ address {
     display: block;
     color: #0284a2;
     text-decoration: none;
-    display: block;
 }
-
-.address-contact .first-address{
-    width: 153px;
-    height: 24px;
-}
-
-.address-contact .second-address{
-    width: 151px;
-    height: 24px;
-}
-
 
 .address-contact:hover,
 .address-contact:focus {
