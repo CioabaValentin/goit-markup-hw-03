@@ -216,6 +216,8 @@ address {
     display: block;
     min-width: 169px;
     height: 56px;
+    text-align: center;
+    margin: auto;
 }
 
 .button:hover {
@@ -238,7 +240,8 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    
+    max-width: 496px;
+    margin: auto;
 }
 
 .button:hover,
@@ -276,8 +279,6 @@ address {
 
 
 .quality-list-item {
-    max-width: 250px;
-    border-radius: 10px;
     flex-basis: calc((100% - 72px) / 4);
 }
 
