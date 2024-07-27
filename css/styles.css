@@ -71,12 +71,13 @@ a {
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
+    height: 73px;
 }
 
 
 .header-main-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 15px;
 }
@@ -86,17 +87,7 @@ a {
     margin: 0 auto;
 }
 
-.header-logo-first-part {
-    font-size: 1.5rem;
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-}
 
-.header-logo-second-part {
-    color: #2e2f42;
-    ;
-}
 
 .header-logo-first-part {
     font-family: 'Raleway', sans-serif;
@@ -107,7 +98,6 @@ a {
 
 .header-logo-second-part {
     color: var(--navy-blue);
-
 }
 
 
@@ -128,7 +118,6 @@ a {
 }
 
 .header-link {
-    text-decoration: none;
     color: #2e2f42;
     font-weight: 500;
     padding: 5px 10px;
@@ -183,20 +172,12 @@ address {
 
 .address-contact .first-address{
     width: 153px;
-        height: 24px;
-        top: 24px;
-        left: 940px;
-        gap: 0px;
-        opacity: 0px;
+    height: 24px;
 }
 
 .address-contact .second-address{
     width: 151px;
-        height: 24px;
-        top: 24px;
-        left: 1133px;
-        gap: 0px;
-        opacity: 0px;
+    height: 24px;
 }
 
 
@@ -252,7 +233,6 @@ address {
     background-position: center;
     color: #ffffff;
     text-align: center;
-    margin-top: 70px;
     padding: 188px 0;
 }
 
@@ -469,7 +449,7 @@ padding-bottom: 32px;
 .footer-section {
     background-color: var(--navy-blue);
     padding: 100px 0;
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
 }
 
