@@ -69,7 +69,6 @@ a {
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 
@@ -111,8 +110,8 @@ a {
     display: flex;
 }
 
-.first-nav-links{
-    padding: 24px 0;
+.menu-item {
+padding: 24px 0;
 }
 
 
